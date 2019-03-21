@@ -1,8 +1,8 @@
 const path = require('path');
 const express = require('express');
 
-const pathToBuild = path.join(__dirname + './bundle');
-const pathToIndex = path.join(__dirname + './index.html');
+const pathToBuild = path.join(__dirname + '/bundle');
+const pathToIndex = path.join(__dirname + '/index.html');
 
 const app = express();
 
